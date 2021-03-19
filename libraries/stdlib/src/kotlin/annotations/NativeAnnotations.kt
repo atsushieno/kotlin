@@ -11,6 +11,7 @@ package kotlin.native
  * [externName] controls the name of top level function, [shortName] controls the short name.
  * If [externName] is empty, no top level declaration is being created.
  */
+@SinceKotlin("1.5")
 @Target(AnnotationTarget.FUNCTION)
 @Retention(AnnotationRetention.BINARY)
 @OptionalExpectation
